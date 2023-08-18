@@ -550,6 +550,23 @@ i.upld:hover {
 .follow-profile .tweet-button:hover {
     opacity: 0.8;
 }
+.meta-info {
+    padding: 15px;
+    color: var(--pale-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.meta-info a {
+    color: var(--pale-color);
+    text-decoration: none;
+    margin-right: 8px;
+}
+.meta-info a:hover {
+    text-decoration: underline;
+}
+.meta-info span:first-of-type {
+    margin-right: 8px;
+}
 .mobile-nav {
     display: none;
     justify-content: space-around;

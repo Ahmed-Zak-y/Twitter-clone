@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Twitter clone">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/twitter.css">
+    <title>Twitter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="up-part">
+                <div class="main-nav-item">
+                    <i id="logo" class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="main-nav-item active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">search</i>
+                    <span>Explore</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">notifications</i>
+                    <span>Notifications</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">mail</i>
+                    <span>Messages</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">article</i>
+                    <span>Lists</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">bookmark_border</i>
+                    <span>Bookmarks</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">group</i>
+                    <span>Communities</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">verified</i>
+                    <span>Verified</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">person</i>
+                    <span>Profile</span>
+                </div>
+                <div class="main-nav-item">
+                    <i class="material-icons-outlined">pending</i>
+                    <span>More</span>
+                </div>
+                <button class="tweet-button">
+                    <span>Post</span>
+                    <i class="fa-solid fa-feather-pointed"></i>
+                </button>
+            </div>
+            <div class="down-part">
+                <div class="profile-part">
+                    <img class="main-img" src="imgs/avat.jpg" alt="avatar">
+                    <div class="pro-details">
+                        <span class="name">Ahmed</span><br>
+                        <span class="iden">@ahmed423432</span>
+                    </div>
+                    <i class="material-icons-outlined">more_horiz</i>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-feed">
+                <div class="main-feed-header">
+                    <div class="title">
+                        <p>Home</p>
+                        <i class="fa-brands fa-twitter" id="logo"></i>
+                        <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    </div>
+                    <div class="shuffle">
+                        <div class="box active">
+                            <span>For you</span>
+                        </div>
+                        <div class="box">
+                            <span>Following</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet-here">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="post-box">
+                        <form action="">
+                            <input type="text" placeholder="What is happening?!" name="post">
+                        </form>
+                        <div class="post-pup">
+                            <div class="post-options">
+                                <i class="material-icons-outlined">image</i>
+                                <i class="material-icons-outlined">gif_box</i>
+                                <i class="material-icons-outlined">ballot</i>
+                                <i class="material-icons-outlined">sentiment_satisfied</i>
+                                <i class="material-icons-outlined">pending_actions</i>
+                                <i class="material-icons-outlined">location_on</i>
+                            </div>
+                            <button class="tweet-button">Post</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ratione rem possimus laboriosam atque iste excepturi corporis reprehenderit obcaecati sit.
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, a cupiditate nobis voluptates quia expedita sint dolore ducimus quaerat maxime dolorem itaque molestias id maiores et nemo dignissimos sunt vitae? Cumque rerum deserunt culpa consequuntur natus tenetur, sint esse asperiores reprehenderit inventore aspernatur sit iure sed aut tempora ea veritatis.
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur quis asperiores corporis laboriosam veritatis earum! Ut velit cum quibusdam? Pariatur impedit consequuntur reprehenderit praesentium ab ea natus repellendus corrupti?
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio ut iure, amet adipisci non aut veritatis, ratione aliquid ea eligendi libero unde obcaecati? Iure unde cum voluptatibus cupiditate quasi obcaecati placeat, impedit nam praesentium similique quis culpa autem voluptates odit?
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error beatae excepturi aliquid dolorum, ut animi vitae eveniet? Voluptatum, sed unde.
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, saepe repudiandae dignissimos voluptatibus rem exercitationem ratione tenetur cumque. Natus neque, illum quisquam iste quaerat ad!
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-tweet">
+                    <img src="imgs/avat.jpg" alt="avat" class="main-img spicific">
+                    <div class="pre-tweet-box">
+                        <div class="pre-tweet-up">
+                            <div class="user-details">
+                                <span class="nm">Ahmed</span>
+                                <span class="ide">@ahmed423432 •</span>
+                                <span class="dt">Aug 10</span>
+                            </div>
+                            <i class="material-icons-outlined">more_horiz</i>
+                        </div>
+                        <div class="pre-tweet-mid">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ab quasi quaerat molestiae ut maiores, minima quam blanditiis vel corporis aperiam illum obcaecati accusantium sed, cum totam voluptate eos ducimus, unde quo dicta consequuntur debitis!
+                            </p>
+                        </div>
+                        <div class="pre-tweet-down">
+                            <i class="fa-regular fa-comment com"></i>
+                            <i class="fa-solid fa-retweet ret"></i>
+                            <i class="fa-regular fa-heart hrt"></i>
+                            <i class="fa-solid fa-signal stats"></i>
+                            <i class="fa-solid fa-upload upld"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-nav">
+                    <i class="material-icons-outlined mobile-tweet">history_edu</i>
+                    <i class="material-icons-outlined">home</i>
+                    <i class="material-icons">search</i>
+                    <i class="material-icons-outlined">notifications</i>
+                    <i class="material-icons-outlined">mail</i>
+                </div>
+            </div>
+            <div class="side-feed">
+                <div class="side-head">
+                    <form action="">
+                        <i class="material-icons">search</i>
+                        <input type="text" name="search" placeholder="Search">
+                    </form>
+                </div>
+                <div class="side-feed-content">
+                    <div class="happenings">
+                        <h1>What's happening</h1>
+                        <div class="hap-item">
+                            <div class="hap-item-header">
+                                <span>Trending in Egypt</span>
+                                <i class="material-icons-outlined">more_horiz</i>
+                            </div>
+                            <div class="hap-item-cont">
+                                مصر
+                            </div>
+                            <div class="hap-item-footer">
+                                308K posts
+                            </div>
+                        </div>
+                        <div class="hap-item">
+                            <div class="hap-item-header">
+                                <span>Trending in Egypt</span>
+                                <i class="material-icons-outlined">more_horiz</i>
+                            </div>
+                            <div class="hap-item-cont">
+                                يوم الأربع
+                            </div>
+                            <div class="hap-item-footer">
+                                311K posts
+                            </div>
+                        </div>
+                        <div class="hap-item">
+                            <div class="hap-item-header">
+                                <span>Trending in Egypt</span>
+                                <i class="material-icons-outlined">more_horiz</i>
+                            </div>
+                            <div class="hap-item-cont">
+                                تريند
+                            </div>
+                            <div class="hap-item-footer">
+                                878K posts
+                            </div>
+                        </div>
+                        <div class="hap-item">
+                            <div class="hap-item-header">
+                                <span>Trending in Egypt</span>
+                                <i class="material-icons-outlined">more_horiz</i>
+                            </div>
+                            <div class="hap-item-cont">
+                                الأهلي
+                            </div>
+                            <div class="hap-item-footer">
+                                415K posts
+                            </div>
+                        </div>
+                        <div class="hap-item">
+                            <a href="#">Show more</a>
+                        </div>
+                    </div>
+                    <div class="follows">
+                        <h1>Who to follow</h1>
+                        <div class="follow-profile">
+                            <img src="imgs/quran.jpg" alt="quran" class="main-img spicific">
+                            <div class="text">
+                                <span class="fol-name">المُصْحَف</span><br>
+                                <span class="fol-iden">@AlMosahf</span>
+                            </div>
+                            <button class="tweet-button">Follow</button>
+                        </div>
+                        <div class="follow-profile">
+                            <img src="imgs/athkar.jpg" alt="quran" class="main-img spicific">
+                            <div class="text">
+                                <span class="fol-name">أذكار</span><br>
+                                <span class="fol-iden">@i1rules</span>
+                            </div>
+                            <button class="tweet-button">Follow</button>
+                        </div>
+                        <div class="follow-profile">
+                            <img src="imgs/ad3yh.jpg" alt="quran" class="main-img spicific">
+                            <div class="text">
+                                <span class="fol-name">أدعية</span><br>
+                                <span class="fol-iden">@adeaih_</span>
+                            </div>
+                            <button class="tweet-button">Follow</button>
+                        </div>
+                        <div class="follow-profile">
+                            <a href="#">Show more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

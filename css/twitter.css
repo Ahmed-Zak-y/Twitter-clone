@@ -571,8 +571,10 @@ i.upld:hover {
     display: none;
     justify-content: space-around;
     border-top: 1px solid var(--border-color);
-    position: sticky;
+    position: fixed;
+    left: 0;
     bottom: 0;
+    width: 100%;
     background-color: black;
 }
 .mobile-nav i {

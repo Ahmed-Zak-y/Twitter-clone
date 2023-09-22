@@ -1,2 +1,2 @@
-# twitter-clone
+# Twitter-clone
 A project for my portfolio

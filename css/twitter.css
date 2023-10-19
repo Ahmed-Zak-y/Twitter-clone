@@ -183,6 +183,7 @@ body {
         padding: 0;
     }
     .scroll-side-container {
+        height: 100%;
         min-height: 600px;
     }
     #logo {
